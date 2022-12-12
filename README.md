@@ -1,39 +1,32 @@
 
-#API Automation testing with Rest assured
+**RestAssured with Java Automation-Framework**
 
-## Tech Stack
 
-- Java
-- Rest assured
-- Maven
-- TestNG
 
-## Project Structure
+>Prerequisites
 
-```bash
-|---
-|--- src
-|    |--- main
-|    |--- test
-|         |--- java
-|              |--- api_demo     # Java test files
-|              |--- dataentities # De-serialization files.
-|--- testng.xml                  # Suite to run all test by clasess
-|--- pom.xml                     # pom file contains dependencies 
-|---...
-```
+    Java, Maven
 
-## Running Tests 
+>How to run
 
-Before running you need to set your TODOIST token 
+    Navigate to the Project directory 'RestAssured_CIMB-master' using CLI.
 
-To run all the tests from the suite on testng.xml
+    Then: > mvn test
 
-```bash
-  mvn test
-```
+    or
 
-To run a specific class 
-```bash
-  mvn -Dtest=TaskScenarios test
-```
+    Load the project in the Intellij/Eclipse IDE and find the testng.xml file,
+    Then Run as 'TestNG Suite'
+
+    or
+
+    Load the project in the Intellij/Eclipse IDE and find the pom.xml file,
+    Then Run as 'maven test'
+
+
+
+>Extent Report
+
+    /RestAssured_CIMB-master/reports/
+
+
